@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Face Swap Uploader</title>
+  </head>
+  <body>
+    <h2>Face Swap Upload</h2>
+    <form action="http://192.168.1.4:5000/swap" method="post" enctype="multipart/form-data">
+      <label>Source image:</label><br>
+      <input type="file" name="source" required><br><br>
+      <label>Target image:</label><br>
+      <input type="file" name="target" required><br><br>
+      <button type="submit">Swap Faces</button>
+    </form>
+  </body>
+</html>
